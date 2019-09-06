@@ -30,12 +30,12 @@
     </item>
     
     <item>
-      <title>开博大吉</title>
-      <link>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <title>markdown常用语法</title>
+      <link>http://localhost:1313/post/markdown%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/</link>
       <pubDate>Sat, 07 Sep 2019 01:16:46 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
-      <description>222222222</description>
+      <guid>http://localhost:1313/post/markdown%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/</guid>
+      <description>常用语法 标题 语法格式：** &amp;lsquo;#&amp;rsquo;+&amp;lsquo;空格&amp;rsquo;+&amp;lsquo;文本&amp;rsquo; ** 一级标题 二级标</description>
     </item>
     
     <item>

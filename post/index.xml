@@ -22,10 +22,10 @@
     
     <item>
       <title>HTML入门笔记</title>
-      <link>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
+      <link>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Sat, 07 Sep 2019 01:16:46 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
+      <guid>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</guid>
       <description>HTML入门笔记 首先来看看HTML是如何悲发明的 HTML于1990年左右诞生，由有着HTML之父之称的Tim Berners-Lee发明，我们</description>
     </item>
     
@@ -39,31 +39,21 @@
     </item>
     
     <item>
-      <title>Math Preview</title>
-      <link>http://localhost:1313/post/math-preview/</link>
+      <title>HTML常用标签</title>
+      <link>http://localhost:1313/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
       <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/math-preview/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.intmath.com/cg5/katex-mathjax-comparison.php&#34;&gt;KaTeX and MathJax Comparison Demo, currently processed as KaTex&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</guid>
+      <description>a 标签的用法 HTML &amp;lt;a&amp;gt; 元素（或称锚元素）可以创建通向其他网页、文件、同一页面内的 位置、电子邮件地址或任何其他 URL 的超链接。 a标签的属性有哪些 href target download rel=noopener</description>
     </item>
     
     <item>
-      <title>Shortcodes Preview</title>
-      <link>http://localhost:1313/post/shortcodes-preview/</link>
+      <title>浅析 URL</title>
+      <link>http://localhost:1313/post/%E6%B5%85%E6%9E%90-url/</link>
       <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/shortcodes-preview/</guid>
-      <description>&lt;h2 id=&#34;what-a-shortcode-is&#34;&gt;What a Shortcode is&lt;/h2&gt;
-
-&lt;p&gt;Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &lt;code&gt;&amp;lt;iframes&amp;gt;&lt;/code&gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&amp;rsquo;s syntax.&lt;/p&gt;
-
-&lt;p&gt;Hugo created &lt;strong&gt;shortcodes&lt;/strong&gt; to circumvent these limitations.&lt;/p&gt;
-
-&lt;p&gt;A shortcode is a simple snippet inside a content file that Hugo will render using a predefined template. Note that shortcodes will not work in template files. If you need the type of drop-in functionality that shortcodes provide but in a template, you most likely want a [partial template][partials] instead.&lt;/p&gt;
-
-&lt;p&gt;In addition to cleaner Markdown, shortcodes can be updated any time to reflect new classes, techniques, or standards. At the point of site generation, Hugo shortcodes will easily merge in your changes. You avoid a possibly complicated search and replace operation.&lt;/p&gt;
-
-&lt;p&gt;More details: &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;https://gohugo.io/content-management/shortcodes/&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/%E6%B5%85%E6%9E%90-url/</guid>
+      <description>什么是URL 基维百科给出的解释是：统一资源定位符 URL（Uniform Resource Locator）是因特网上标准的资源的地址（Address），如同在</description>
     </item>
     
     <item>

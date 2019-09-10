@@ -16,6 +16,97 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/css-%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/development/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/development/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/go/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/golang/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/golang/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/index/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/templates/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/themes/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2019-09-07T01:16:46+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -30,27 +121,6 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2019-09-07T01:16:46+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2019-09-07T01:16:46+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2019-03-05T16:01:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://localhost:1313/categories/docs/</loc>
     <lastmod>2019-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -59,13 +129,6 @@
   
   <url>
     <loc>http://localhost:1313/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2019-03-05T16:01:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/index/</loc>
     <lastmod>2019-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -100,8 +163,8 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2019-03-05T16:01:23+08:00</lastmod>
+    <loc>http://localhost:1313/tags/shortcodes/</loc>
+    <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -114,21 +177,14 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/shortcodes/</loc>
-    <lastmod>2018-03-07T16:01:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/%E6%B5%85%E6%9E%90-url/</loc>
+    <loc>http://localhost:1313/tags/%E6%B5%85%E6%9E%90-url/</loc>
     <lastmod>2018-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/%E6%B5%85%E6%9E%90-url/</loc>
+    <loc>http://localhost:1313/categories/%E6%B5%85%E6%9E%90-url/</loc>
     <lastmod>2018-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -235,62 +291,6 @@
   <url>
     <loc>http://localhost:1313/post/this-is-a-very-long-title/</loc>
     <lastmod>2017-08-30T15:43:48+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/post/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/development/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/development/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/go/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/golang/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/golang/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/templates/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/themes/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

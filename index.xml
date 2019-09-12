@@ -413,6 +413,102 @@ test();
     </item>
     
     <item>
+      <title>JavaScript 的诞生</title>
+      <link>http://localhost:1313/post/javascript-%E7%9A%84%E8%AF%9E%E7%94%9F/</link>
+      <pubDate>Sun, 01 Sep 2019 16:01:23 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/javascript-%E7%9A%84%E8%AF%9E%E7%94%9F/</guid>
+      
+        <description>
+
+&lt;h2 id=&#34;javascript-的诞生&#34;&gt;JavaScript 的诞生&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;1994年，网景公司（Netscape）发布了Navigator浏览器0.9版。这是历史上第一个比较成熟的网络浏览器，轰动一时。但是，这个版本的浏览器只能用来浏览，不具备与访问者互动的能力。网景公司急需一种网页脚本语言，使得浏览器可以与网页互动。&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;1995年，网景招募了Brendan Eich，目标是把Scheme语言嵌入到Netscape Navigator浏览器当中。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;但更早之前，网景已经跟昇阳合作在Netscape Navigator中支持Java，这时网景内部产生激烈的争论&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;后来网景决定发明一种与Java搭配使用的辅助脚本语言并且语法上有些类似，这个决策导致排除了采用现有的语言，例如Perl、Python、Tcl或Scheme&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;为了在其他竞争提案中捍卫JavaScript这个想法，公司需要有一个可以运作的原型。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Brendan Eich在1995年5月仅花了十天时间就把原型设计出来了&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;最初命名为Mocha，1995年9月在Netscape Navigator 2.0的Beta版中改名为LiveScript&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;同年12月，Netscape Navigator 2.0 Beta 3中部署时被重命名为JavaScript&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;当时网景公司与昇阳计算机公司组成的开发联盟为了让这门语言搭上Java这个编程语言“热词”，因此将其临时改名为JavaScript&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;javascript-的十大缺陷&#34;&gt;JavaScript 的十大缺陷&lt;/h2&gt;
+
+&lt;h3 id=&#34;为什么-javascript-有设计缺陷&#34;&gt;为什么 JavaScript 有设计缺陷&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;设计阶段过于仓促&lt;/p&gt;
+
+&lt;p&gt;Javascript的设计，其实只用了十天。而且，设计师是为了向公司交差，本人并不愿意这样设计。
+另一方面，这种语言的设计初衷，是为了解决一些简单的网页互动（比如，检查&amp;rdquo;用户名&amp;rdquo;是否填写），并没有考虑复杂应用的需要。设计者做梦也想不到，Javascript将来可以写出像Gmail这种极其庞大复杂的网页。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;没有先例&lt;/p&gt;
+
+&lt;p&gt;Javascript同时结合了函数式编程和面向对象编程的特点，这很可能是历史上的第一例。而且直到今天为止，Javascript仍然是世界上唯一使用Prototype继承模型的主要语言。这使得它没有设计先例可以参考。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;过早的标准化&lt;/p&gt;
+
+&lt;p&gt;Javascript的发展非常快，根本没有时间调整设计。
+1995年5月，设计方案定稿；10月，解释器开发成功；12月，向市场推出，立刻被广泛接受，全世界的用户大量使用。Javascript缺乏一个从小到大、慢慢积累用户的过程，而是连续的爆炸式扩散增长。大量的既成网页和业余网页设计者的参与，使得调整语言规格困难重重。
+更糟的是，Javascript的规格还没来及调整，就固化了。
+1996年8月，微软公司强势介入，宣布推出自己的脚本语言Jscript；11月，为了压制微软，网景公司决定申请Javascript的国际标准；1997年6月，第一个国际标准ECMA-262正式颁布。
+也就是说，Javascript推出一年半之后，国际标准就问世了。设计缺陷还没有充分暴露就成了标准。相比之下，C语言问世将近20年之后，国际标准才颁布。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;javascript-的设计缺陷&#34;&gt;JavaScript 的设计缺陷&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;不适合开发大型程序&lt;/li&gt;
+&lt;li&gt;Javascript没有名称空间（namespace），很难模块化；没有如何将代码分布在多个文件的规范；允许同名函数的重复定义，后面的定义可以覆盖前面的定义，很不利于模块化加载。&lt;/li&gt;
+&lt;li&gt;非常小的标准库&lt;/li&gt;
+&lt;li&gt;Javascript提供的标准函数库非常小，只能完成一些基本操作，很多功能都不具备。&lt;/li&gt;
+&lt;li&gt;null和undefined&lt;/li&gt;
+&lt;li&gt;null属于对象（object）的一种，意思是该对象为空；undefined则是一种数据类型，表示未定义。两者非常容易混淆，但是含义完全不同。在编程实践中，null几乎没用。&lt;/li&gt;
+&lt;li&gt;全局变量难以控制&lt;/li&gt;
+&lt;li&gt;Javascript的全局变量，在所有模块中都是可见的；任何一个函数内部都可以生成全局变量，这大大加剧了程序的复杂性。&lt;/li&gt;
+&lt;li&gt;自动插入行尾分号&lt;/li&gt;
+&lt;li&gt;Javascript的所有语句，都必须以分号结尾。但是，如果你忘记加分号，解释器并不报错，而是为你自动加上分号。有时候，这会导致一些难以发现的错误。&lt;/li&gt;
+&lt;li&gt;加号运算符&lt;/li&gt;
+&lt;li&gt;+号作为运算符，有两个含义，可以表示数字与数字的和，也可以表示字符与字符的连接。如果一个操作项是字符，另一个操作项是数字，则数字自动转化为字符。&lt;/li&gt;
+&lt;li&gt;NaN&lt;/li&gt;
+&lt;li&gt;NaN是一种数字，表示超出了解释器的极限。它有一些很奇怪的特性：&lt;/li&gt;
+&lt;li&gt;&amp;gt;NaN === NaN; //false&lt;/li&gt;
+&lt;li&gt;&amp;gt;NaN !== NaN; //true&lt;/li&gt;
+&lt;li&gt;&amp;gt;alert( 1 + NaN ); // NaN&lt;/li&gt;
+&lt;li&gt;数组和对象的区分&lt;/li&gt;
+&lt;li&gt;由于Javascript的数组也属于对象（object），所以要区分一个对象到底是不是数组，相当麻烦。&lt;/li&gt;
+&lt;li&gt;== 和 ===&lt;/li&gt;
+&lt;li&gt;==用来判断两个值是否相等。当两个值类型不同时，会发生自动转换，得到的结果非常不符合直觉。因此，推荐任何时候都使用&amp;rdquo;===&amp;ldquo;（精确判断）比较符。&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;基本类型的包装对象&lt;/li&gt;
+&lt;li&gt;Javascript有三种基本数据类型：字符串、数字和布尔值。它们都有相应的建构函数，可以生成字符串对象、数字对象和布尔值对象。与基本数据类型对应的对象类型，作用很小，造成的混淆却很大。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;如何看待-javascript-的缺陷&#34;&gt;如何看待 JavaScript 的缺陷&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;既然Javascript有缺陷，数量还不少，那么它是不是一种很糟糕的语言？有没有前途？
+回答是Javascript并不算糟糕，相反它的编程能力很强大，前途很光明。
+首先，如果遵守良好的编程规范，加上第三方函数库的帮助，Javascript的这些缺陷大部分可以回避。
+其次，Javascript目前是网页编程的唯一语言，只要互联网继续发展，它就必然一起发展。目前，许多新项目大大扩展了它的用途，node.js使得Javascript可以用于后端的服务器编程，coffeeScript使你可以用python和ruby的语法，撰写Javascript。
+最后，只要发布新版本的语言标准（比如 ECMAscript 5），就可以弥补这些设计缺陷。当然，标准的发布和标准的实现是两回事。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>HTML常用标签</title>
       <link>http://localhost:1313/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
       <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
@@ -855,101 +951,6 @@ A warning disclaimer
 
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
-      
-    </item>
-    
-    <item>
-      <title>Jane-Theme Footnote Preview</title>
-      <link>http://localhost:1313/post/doc-footnote-preview/</link>
-      <pubDate>Thu, 01 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/doc-footnote-preview/</guid>
-      
-        <description>&lt;p&gt;Hugo-theme-jane optimized for footnote. When you mouse hover the footnote&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:example&#34;&gt;&lt;a href=&#34;#fn:example&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; , footnote content will be displayed.&lt;/p&gt;
-
-&lt;h2 id=&#34;footnote-1&#34;&gt;Footnote-1&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;You can create footnotes like this[^footnote].
-
-[^footnote]: Here is the *text* of the **footnote**.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;will produce:&lt;/p&gt;
-
-&lt;p&gt;You can create footnotes like this&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:footnote1&#34;&gt;&lt;a href=&#34;#fn:footnote1&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;p&gt;Mouse on the ‘footnote’ superscript to see content of the footnote.&lt;/p&gt;
-
-&lt;h2 id=&#34;footnote-2&#34;&gt;Footnote-2&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;You can create footnotes like this[^footnote2].
-
-[^footnote2]: Here is the *text* of the **footnote**.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;will produce:&lt;/p&gt;
-
-&lt;p&gt;You can create footnotes like this&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:footnote&#34;&gt;&lt;a href=&#34;#fn:footnote&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;p&gt;Mouse on the ‘footnote’ superscript to see content of the footnote.&lt;/p&gt;
-
-&lt;h2 id=&#34;footnote-3&#34;&gt;Footnote-3&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;You can create footnotes like this[^footnote].
-
-[^footnote]: Here is the *text* of the **footnote**.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;will produce:&lt;/p&gt;
-
-&lt;p&gt;You can create footnotes like this&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:footnote3&#34;&gt;&lt;a href=&#34;#fn:footnote3&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;p&gt;Mouse on the ‘footnote’ superscript to see content of the footnote.&lt;/p&gt;
-
-&lt;h2 id=&#34;footnote-4&#34;&gt;Footnote-4&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;You can create footnotes like this[^footnote].
-
-[^footnote]: Here is the *text* of the **footnote**.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;will produce:&lt;/p&gt;
-
-&lt;p&gt;You can create footnotes like this&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:footnote4&#34;&gt;&lt;a href=&#34;#fn:footnote4&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;p&gt;Mouse on the ‘footnote’ superscript to see content of the footnote.&lt;/p&gt;
-
-&lt;h2 id=&#34;footnote-5&#34;&gt;Footnote-5&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;You can create footnotes like this[^footnote].
-
-[^footnote]: Here is the *text* of the **footnote**.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;will produce dddddddddddddddddddddddddddddddddddddddddddddd:&lt;/p&gt;
-
-&lt;p&gt;You can create footnotes like this&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:footnote5&#34;&gt;&lt;a href=&#34;#fn:footnote5&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;p&gt;Mouse on the ‘footnote’ superscript to see content of the footnote.&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:example&#34;&gt;example footnote show.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:example&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:footnote1&#34;&gt;Here is the &lt;em&gt;text&lt;/em&gt; of the &lt;strong&gt;footnote-1&lt;/strong&gt;.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:footnote1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:footnote&#34;&gt;Here is the &lt;em&gt;text&lt;/em&gt; of the &lt;strong&gt;footnote-2&lt;/strong&gt;. Here is the text of the footnote-2. Here is the text of the footnote-2. Here is the text of the footnote-2. Here is the text of the footnote-2.  &lt;a href=&#34;https://gohugo.io/&#34;&gt;The world’s fastest framework for building websites | Hugo&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:footnote&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:footnote3&#34;&gt;Here is the &lt;em&gt;text&lt;/em&gt; of the &lt;strong&gt;footnote-3&lt;/strong&gt;.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:footnote3&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:footnote4&#34;&gt;Here is the &lt;em&gt;text&lt;/em&gt; of the &lt;strong&gt;footnote-4&lt;/strong&gt;.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:footnote4&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:footnote5&#34;&gt;Here is the &lt;em&gt;text&lt;/em&gt; of the &lt;strong&gt;footnote-5&lt;/strong&gt;.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:footnote5&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description>
       
     </item>
     
